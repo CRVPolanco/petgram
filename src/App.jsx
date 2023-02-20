@@ -1,10 +1,15 @@
 import React from 'react';
-import { Category } from './components/Category';
+import { CategoryList } from './components/CategoryList';
+import { GlobalStyle } from './GlobalStyles';
 import './styles/App.css';
 
 function App() {
   return(
-    <Category />
+    <>
+      <GlobalStyle />
+      <CategoryList />
+    </>
+
   )
 }
 
