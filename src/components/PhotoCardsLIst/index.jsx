@@ -3,7 +3,7 @@ import { PhotoCard } from '../PhotoCard';
 
 const PhotoCardList = () => {
   return(
-    <ul>
+    <ul style={{ padding: '12px' }}>
       {[1,2,3].map((p) => <PhotoCard />)}
     </ul>
   )

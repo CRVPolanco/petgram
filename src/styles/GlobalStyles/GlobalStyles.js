@@ -21,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
   }
   body{
-    background: #fefefe;
+    background: #1a1a1a;
     height: 100vh;
     margin: 0 auto;
     max-width: 500px;
@@ -29,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
   }
   #root{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
     min-height: 100vh;
     overflow-x: hidden;
     padding-bottom: 10px;

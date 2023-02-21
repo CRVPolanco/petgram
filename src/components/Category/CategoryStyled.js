@@ -9,8 +9,7 @@ const Anchor = styled.a`
 `;
 
 const Img = styled.img`
-  border: 1px solid #ddd;
-  box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 14px rgba(255, 255, 255, 0.11);
   border-radius: 50%;
   height: auto;
   overflow: hidden;

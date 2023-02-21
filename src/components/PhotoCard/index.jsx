@@ -14,7 +14,7 @@ const PhotoCard = ({ id, likes = 0, src = DEFAULT_IMAGE }) => {
       </a>
 
       <Button>
-        <MdFavoriteBorder size='32px' /> {likes} likes!
+        <MdFavoriteBorder size='32px' color='#FFF' /> {likes} likes!
       </Button>
     </article>
   )
