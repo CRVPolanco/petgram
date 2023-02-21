@@ -1,13 +1,15 @@
 import React from 'react';
 import { CategoryList } from './components/CategoryList';
-import { GlobalStyle } from './GlobalStyles';
-import './styles/App.css';
+import { GlobalStyle } from './components/GlobalStyles/GlobalStyles';
+import { PhotoCardList } from './components/PhotoCardsLIst';
+
 
 function App() {
   return(
     <>
       <GlobalStyle />
       <CategoryList />
+      <PhotoCardList />
     </>
 
   )

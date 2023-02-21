@@ -11,7 +11,7 @@ const List = styled.ul`
 `;
 
 const Item = styled.li`
-  padding: 8px 0;
+
 `;
 
 export { List, Item };
